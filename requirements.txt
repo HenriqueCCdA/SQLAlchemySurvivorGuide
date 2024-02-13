@@ -1,0 +1,4 @@
+greenlet==3.0.3
+PyMySQL==1.1.0
+SQLAlchemy==1.4.51
+typing_extensions==4.9.0
