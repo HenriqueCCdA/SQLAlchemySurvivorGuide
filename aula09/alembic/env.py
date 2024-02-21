@@ -14,6 +14,9 @@ config = context.config
 if config.config_file_name is not None:
     fileConfig(config.config_file_name)
 
+db_url = "mysql+pymysql://root:admin@localhost:3308/cinema"
+config.set_main_option('sqlalchemy.url', db_url)
+
 # add your model's MetaData object here
 # for 'autogenerate' support
 # from myapp import mymodel
